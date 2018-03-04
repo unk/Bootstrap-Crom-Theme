@@ -1,0 +1,45 @@
+body {
+	background: #000000;
+	color: #ffffff;
+}
+
+.btn-outline-primary {
+	color: #cc0000;
+	border-color: #cc0000;
+
+	&:hover {
+		background-color: #aa0000;
+		border-color: #aa0000;
+	}
+
+	&:not(:disabled):not(.disabled):active {
+		background-color: #880000;
+		border-color: #880000;
+	}
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: #cc0000;
+	border-color: #cc0000;
+
+	&:hover {
+		background-color: #aa0000;
+		border-color: #aa0000;
+	}
+
+	&:not(:disabled):not(.disabled):active {
+		background-color: #880000;
+		border-color: #880000;
+	}
+}
+
+.card {
+	background: #000000;
+	border: 1px solid rgba(255, 255, 255, 0.125)
+}
+
+.card-header {
+	background-color: rgba(255, 255, 255, 0.03);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.125);
+}

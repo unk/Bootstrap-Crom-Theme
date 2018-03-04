@@ -1,0 +1,14 @@
+{
+	"scripts": {
+		"build": "node-sass --output-style compressed src/bootstrap-crom-theme.scss -o dist/",
+		"build-plugin": "node-sass --output-style compressed src/bootstrap-crom-theme-plugin.scss -o dist/",
+		"start": "npm run watch",
+		"watch": "node-sass -w src/bootstrap-crom-theme.scss -o test/"
+	},
+	"dependencies": {
+		"bootstrap": "^4.0.0"
+	},
+	"devDependencies": {
+		"node-sass": "^4.7.2"
+	}
+}
