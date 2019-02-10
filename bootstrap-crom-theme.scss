@@ -1,0 +1,80 @@
+/*!
+ * Bootstrap Crom Theme
+ * Licensed under MIT
+ */
+
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+
+$body-bg: $black;
+$card-bg: $black;
+$body-color: $white;
+$card-border-color: rgba($white, 0.125);
+
+$primary: #cc0000;
+$danger: #563d7c;
+
+$theme-colors: (
+  'white': $white
+);
+
+$border-radius: 0;
+$border-radius-lg: 0;
+$border-radius-sm: 0;
+
+$hr-border-color: rgba($white, 0.125);
+
+$list-group-bg: $black;
+$list-group-border-color: rgba($white, .125);
+
+$dropdown-bg: $black;
+$dropdown-border-color: rgba($white, .125);
+$dropdown-link-color: $gray-100;
+$dropdown-link-hover-color: #cc0000;
+$dropdown-link-hover-bg: transparent;
+
+$custom-file-text: (
+  en: "Browse",
+  ko: "찾아보기..."
+);
+
+$jumbotron-bg: $gray-800;
+
+$modal-content-bg: $gray-900;
+
+$popover-bg: $gray-900;
+$popover-border-color: rgba($white, 0.125);
+
+$pre-color: $gray-300;
+
+// Bootstrap and its default variables
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+.card.bg-light {
+  color: #000000;
+}
+
+#gridModal .modal-body .row > div {
+  border: 1px solid rgba( $white, 0.125 );
+  background: rgba( $gray-500, 0.125 );
+}
+
+.btn {
+  .spinner-border, .spinner-grow {
+    position: relative;
+    top: -0.1rem;
+  }
+}
+
+.toast-body {
+  color: $black;
+}

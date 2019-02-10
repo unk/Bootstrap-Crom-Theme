@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR');
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+section,
+button,
+input,
+textarea,
+label {
+  font-family: 'Noto Sans KR', sans-serif !important;
+}
+
+body {
+  font-size: 0.85em;
+}
+
+.content-body {
+  flex: 1;
+  padding: 1.25rem;
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .content-body {
+    width: calc(100% - 240px);
+  }
+}
+
+.toast-container {
+  padding: 2rem;
+  background: #563d7c;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.toast-container .toast {
+  display: block;
+  opacity: 1;
+}

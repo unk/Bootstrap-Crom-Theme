@@ -1,14 +1,37 @@
 {
-	"scripts": {
-		"build": "node-sass --output-style compressed src/bootstrap-crom-theme.scss -o dist/",
-		"build-plugin": "node-sass --output-style compressed src/bootstrap-crom-theme-plugin.scss -o dist/",
-		"start": "npm run watch",
-		"watch": "node-sass -w src/bootstrap-crom-theme.scss -o test/"
-	},
-	"dependencies": {
-		"bootstrap": "^4.0.0"
-	},
-	"devDependencies": {
-		"node-sass": "^4.7.2"
-	}
+  "scripts": {
+    "build": "npm run build.scss && npm run copy",
+    "build.scss": "node-sass bootstrap-crom-theme.scss bootstrap-crom-theme.css --output-style=compressed",
+    "copy": "cp bootstrap-crom-theme.css ./src/styles/",
+    "watch": "node-sass -w bootstrap-crom-theme.scss bootstrap-crom-theme.css",
+    "site.build": "npm run site.build.static && npm run site.build.move",
+    "site.build.static": "gatsby build",
+    "site.build.move": "rm -rf docs && mv public docs",
+    "site.develop": "gatsby develop",
+    "site.start": "npm run site.develop",
+    "site.format": "prettier --write \"src/**/*.js\""
+  },
+  "dependencies": {
+    "bootstrap": "^4.2.1"
+  },
+  "devDependencies": {
+    "gatsby": "^2.0.76",
+    "gatsby-image": "^2.0.20",
+    "gatsby-plugin-manifest": "^2.0.9",
+    "gatsby-plugin-offline": "^2.0.16",
+    "gatsby-plugin-react-helmet": "^3.0.2",
+    "gatsby-plugin-sharp": "^2.0.14",
+    "gatsby-source-filesystem": "^2.0.8",
+    "gatsby-transformer-sharp": "^2.1.8",
+    "jquery": "^3.3.1",
+    "node-sass": "^4.11.0",
+    "popper.js": "^1.14.7",
+    "prettier": "^1.15.2",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-helmet": "^5.2.0",
+    "react-syntax-highlighter": "^10.1.2",
+    "reactstrap": "^7.1.0"
+  }
 }
