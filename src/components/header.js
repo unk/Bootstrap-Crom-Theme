@@ -29,9 +29,7 @@ const Header = ({ siteTitle }) => (
           <ul className="navbar-nav mr-auto">
             <li className="nav-item">
               <Link to={'/'}>
-                <a className="nav-link">
-                  Home
-                </a>
+                <a className="nav-link">Home</a>
               </Link>
             </li>
             <li className="nav-item dropdown">
@@ -47,125 +45,77 @@ const Header = ({ siteTitle }) => (
                 컴포넌트
               </a>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <Link to={'/components/alerts'}>
-                  <a className="dropdown-item">
-                    얼럿 <small>Alerts</small>
-                  </a>
+                <Link to={'/components/alerts'} className="dropdown-item">
+                  얼럿 <small>Alerts</small>
                 </Link>
-                <Link to={'/components/badges'}>
-                  <a className="dropdown-item">
-                    뱃지 <small>Badges</small>
-                  </a>
+                <Link to={'/components/badges'} className="dropdown-item">
+                  뱃지 <small>Badges</small>
                 </Link>
-                <Link to={'/components/breadcrumb'}>
-                  <a className="dropdown-item">
-                    방문 기록 <small>Breadcrumb</small>
-                  </a>
+                <Link to={'/components/breadcrumb'} className="dropdown-item">
+                  방문 기록 <small>Breadcrumb</small>
                 </Link>
-                <Link to={'/components/buttons'}>
-                  <a className="dropdown-item">
-                    버튼 <small>Buttons</small>
-                  </a>
+                <Link to={'/components/buttons'} className="dropdown-item">
+                  버튼 <small>Buttons</small>
                 </Link>
-                <Link to={'/components/button-group'}>
-                  <a className="dropdown-item">
-                    버튼 그룹 <small>Button Group</small>
-                  </a>
+                <Link to={'/components/button-group'} className="dropdown-item">
+                  버튼 그룹 <small>Button Group</small>
                 </Link>
-                <Link to={'/components/cards'}>
-                  <a className="dropdown-item">
-                    카드 <small>Cards</small>
-                  </a>
+                <Link to={'/components/cards'} className="dropdown-item">
+                  카드 <small>Cards</small>
                 </Link>
-                {/*<Link to={'/components/carousel'}>*/}
-                  {/*<a className="dropdown-item">*/}
-                    {/*캐러셀 <small>Carousel</small>*/}
-                  {/*</a>*/}
+                {/*<Link to={'/components/carousel'} className="dropdown-item">*/}
+                {/*캐러셀 <small>Carousel</small>*/}
                 {/*</Link>*/}
-                <Link to={'/components/collapse'}>
-                  <a className="dropdown-item">
-                    열기/닫기 <small>Collapse</small>
-                  </a>
+                <Link to={'/components/collapse'} className="dropdown-item">
+                  열기/닫기 <small>Collapse</small>
                 </Link>
-                <Link to={'/components/dropdowns'}>
-                  <a className="dropdown-item">
-                    드롭다운 <small>Dropdowns</small>
-                  </a>
+                <Link to={'/components/dropdowns'} className="dropdown-item">
+                  드롭다운 <small>Dropdowns</small>
                 </Link>
-                <Link to={'/components/forms'}>
-                  <a className="dropdown-item">
-                    폼 <small>Forms</small>
-                  </a>
+                <Link to={'/components/forms'} className="dropdown-item">
+                  폼 <small>Forms</small>
                 </Link>
-                <Link to={'/components/input-group'}>
-                  <a className="dropdown-item">
-                    인풋 그룹 <small>Input Group</small>
-                  </a>
+                <Link to={'/components/input-group'} className="dropdown-item">
+                  인풋 그룹 <small>Input Group</small>
                 </Link>
-                <Link to={'/components/jumbotron'}>
-                  <a className="dropdown-item">
-                    점보트론 <small>Jumbotron</small>
-                  </a>
+                <Link to={'/components/jumbotron'} className="dropdown-item">
+                  점보트론 <small>Jumbotron</small>
                 </Link>
-                <Link to={'/components/list-group'}>
-                  <a className="dropdown-item">
-                    리스트 그룹 <small>List Group</small>
-                  </a>
+                <Link to={'/components/list-group'} className="dropdown-item">
+                  리스트 그룹 <small>List Group</small>
                 </Link>
-                <Link to={'/components/media-object'}>
-                  <a className="dropdown-item">
-                    미디어 <small>Media Object</small>
-                  </a>
+                <Link to={'/components/media-object'} className="dropdown-item">
+                  미디어 <small>Media Object</small>
                 </Link>
-                <Link to={'/components/modal'}>
-                  <a className="dropdown-item">
-                    모달 <small>Modal</small>
-                  </a>
+                <Link to={'/components/modal'} className="dropdown-item">
+                  모달 <small>Modal</small>
                 </Link>
-                <Link to={'/components/navs'}>
-                  <a className="dropdown-item">
-                    네비게이션 <small>Navs</small>
-                  </a>
+                <Link to={'/components/navs'} className="dropdown-item">
+                  네비게이션 <small>Navs</small>
                 </Link>
-                <Link to={'/components/navbar'}>
-                  <a className="dropdown-item">
-                    네비게이션 바 <small>Navbar</small>
-                  </a>
+                <Link to={'/components/navbar'} className="dropdown-item">
+                  네비게이션 바 <small>Navbar</small>
                 </Link>
-                <Link to={'/components/pagination'}>
-                  <a className="dropdown-item">
-                    페이지네이션 <small>Pagination</small>
-                  </a>
+                <Link to={'/components/pagination'} className="dropdown-item">
+                  페이지네이션 <small>Pagination</small>
                 </Link>
-                <Link to={'/components/popovers'}>
-                  <a className="dropdown-item">
-                    팝오버 <small>Popovers</small>
-                  </a>
+                <Link to={'/components/popovers'} className="dropdown-item">
+                  팝오버 <small>Popovers</small>
                 </Link>
-                <Link to={'/components/progress'}>
-                  <a className="dropdown-item">
-                    진행률 <small>Progress</small>
-                  </a>
+                <Link to={'/components/progress'} className="dropdown-item">
+                  진행률 <small>Progress</small>
                 </Link>
-                <Link to={'/components/scrollspy'}>
-                  <a className="dropdown-item">
-                    스크롤감지 <small>Scrollspy</small>
-                  </a>
+                <Link to={'/components/scrollspy'} className="dropdown-item">
+                  스크롤감지 <small>Scrollspy</small>
                 </Link>
-                <Link to={'/components/spinners'}>
-                  <a className="dropdown-item">
-                    스피너 <small>Spinners</small>
-                  </a>
+                <Link to={'/components/spinners'} className="dropdown-item">
+                  스피너 <small>Spinners</small>
                 </Link>
-                <Link to={'/components/toasts'}>
-                  <a className="dropdown-item">
-                    토스트 <small>Toasts</small>
-                  </a>
+                <Link to={'/components/toasts'} className="dropdown-item">
+                  토스트 <small>Toasts</small>
                 </Link>
-                <Link to={'/components/tooltips'}>
-                  <a className="dropdown-item">
-                    툴팁 <small>Tooltips</small>
-                  </a>
+                <Link to={'/components/tooltips'} className="dropdown-item">
+                  툴팁 <small>Tooltips</small>
                 </Link>
               </div>
             </li>
