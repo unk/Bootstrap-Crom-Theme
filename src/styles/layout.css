@@ -22,14 +22,12 @@ body {
 }
 
 .content-body {
-  flex: 1;
-  padding: 1.25rem;
-  width: 100%;
+  /*flex: 1;*/
+  /*padding: 1.25rem;*/
 }
 
 @media (min-width: 992px) {
   .content-body {
-    width: calc(100% - 240px);
   }
 }
 

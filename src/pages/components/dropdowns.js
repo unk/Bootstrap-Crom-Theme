@@ -327,8 +327,10 @@ class Dropdowns extends React.Component {
   render() {
     return (
       <Layout>
+        <h1>드롭다운</h1>
+
+        <h2>샘플</h2>
         <div className="mb-2">
-          <h2>샘플</h2>
           <div className="dropdown">
             <button
               className="btn btn-secondary dropdown-toggle"

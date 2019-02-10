@@ -22,6 +22,7 @@ const IndexPage = () => (
       <a
         href="https://getbootstrap.com/docs/4.2/getting-started/introduction/"
         target="_blank"
+        rel="noopener noreferrer"
       >
         공식 문서(영문)
       </a>
@@ -29,6 +30,7 @@ const IndexPage = () => (
       <a
         href="http://bootstrap4.kr/docs/4.0/getting-started/introduction"
         target="_blank"
+        rel="noopener noreferrer"
       >
         한글 번역 문서
       </a>
@@ -56,13 +58,14 @@ const IndexPage = () => (
     <h3>직접 설치</h3>
 
     <p>
-      <a href="https://github.com/Unk/Bootstrap-Crom-Theme" target="_blank">
+      <a href="https://github.com/Unk/Bootstrap-Crom-Theme" target="_blank" rel="noopener noreferrer">
         Github 페이지
       </a>
       에서 소스를{' '}
       <a
         href="https://github.com/Unk/Bootstrap-Crom-Theme/archive/master.zip"
         target="_blank"
+        rel="noopener noreferrer"
       >
         다운로드
       </a>

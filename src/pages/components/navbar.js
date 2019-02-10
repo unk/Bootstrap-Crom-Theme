@@ -1109,7 +1109,7 @@ class Navbar extends React.Component {
           </SyntaxHighlighter>
         </div>
         <div className="mb-2">
-          <nav className="navbar fixed-top navbar-light bg-light">
+          <nav className="navbar fixed-top navbar-light bg-light" style={{position: 'static'}}>
             <a className="navbar-brand" href="#">
               Fixed top
             </a>
@@ -1121,7 +1121,7 @@ class Navbar extends React.Component {
           </SyntaxHighlighter>
         </div>
         <div className="mb-2">
-          <nav className="navbar fixed-bottom navbar-light bg-light">
+          <nav className="navbar fixed-bottom navbar-light bg-light" style={{position: 'static'}}>
             <a className="navbar-brand" href="#">
               Fixed bottom
             </a>

@@ -89,6 +89,9 @@ class Collapse extends React.Component {
   render() {
     return (
       <Layout>
+        <h1>열기/닫기 <small>Collapse</small></h1>
+
+        <h2>샘플</h2>
         <div className="mb-2">
           <p>
             <a

@@ -171,6 +171,8 @@ class ListGroup extends React.Component {
   render() {
     return (
       <Layout>
+        <h1>리스트 그룹</h1>
+
         <h2>샘플</h2>
         <div className="mb-2">
           <ul className="list-group">

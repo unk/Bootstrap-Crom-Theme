@@ -28,7 +28,7 @@ class Breadcrumb extends React.Component {
   render() {
     return (
       <Layout>
-        <h1>Breadcrumb</h1>
+        <h1>방문기록 <small>Breadcrumb</small></h1>
 
         <hr />
 

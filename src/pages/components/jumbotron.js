@@ -22,6 +22,8 @@ class Jumbotron extends React.Component {
   render() {
     return (
       <Layout>
+        <h1>점보트론</h1>
+
         <h2>샘플</h2>
         <div className="mb-2">
           <div className="jumbotron">

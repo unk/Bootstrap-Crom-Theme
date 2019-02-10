@@ -296,8 +296,9 @@ class InputGroup extends React.Component {
   render() {
     return (
       <Layout>
-        <h2>샘플</h2>
+        <h1>인풋 그룹</h1>
 
+        <h2>샘플</h2>
         <div className="mb-2">
           <div className="input-group mb-3">
             <div className="input-group-prepend">

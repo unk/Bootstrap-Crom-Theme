@@ -887,6 +887,8 @@ class Forms extends React.Component {
   render() {
     return (
       <Layout>
+        <h1>폼</h1>
+
         <h2>샘플</h2>
         <div className="mb-2">
           <form>
