@@ -4,9 +4,10 @@
     "build.scss": "node-sass bootstrap-crom-theme.scss bootstrap-crom-theme.css --output-style=compressed",
     "copy": "cp bootstrap-crom-theme.css ./src/styles/",
     "watch": "node-sass -w bootstrap-crom-theme.scss bootstrap-crom-theme.css",
-    "site.build": "npm run site.build.static && npm run site.build.move",
+    "site.build": "npm run site.build.static && npm run site.build.move && npm run site.cname",
     "site.build.static": "gatsby build",
     "site.build.move": "rm -rf docs && mv public docs",
+    "site.cname": "echo \"bootstrap-crom-theme.unk.io\" > docs/CNAME",
     "site.develop": "gatsby develop",
     "site.start": "npm run site.develop",
     "site.format": "prettier --write \"src/**/*.js\""
