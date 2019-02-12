@@ -53,6 +53,10 @@ function SEO({ description, lang, meta, keywords, title }) {
               {
                 name: `twitter:description`,
                 content: metaDescription
+              },
+              {
+                name: `twitter:image`,
+                content: `https://bootstrap-crom-theme.unk.io/${withPrefix('images/og-image.png')}`
               }
             ]
               .concat(
