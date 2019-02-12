@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Bootstrap Crom Theme`,
+    description: `검빨 배색의 다크 테마를 부트스트랩을 이용해 쉽게 만들어보세요.`,
+    author: `Naram Kim a.k.a. Unknown`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
