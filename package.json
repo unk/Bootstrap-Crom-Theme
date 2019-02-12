@@ -1,4 +1,20 @@
 {
+  "name": "bootstrap-crom-theme",
+  "description": "Bootstrap dark theme to remember Shin Hae-chul.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Naram Kim a.k.a. Unknown",
+    "email": "unknown@grotesq.com",
+    "url": "https://unk.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Unk/Bootstrap-Crom-Theme"
+  },
+  "bugs": {
+    "url": "https://github.com/Unk/Bootstrap-Crom-Theme/issues"
+  },
+  "main": "./bootstrap-crom-theme.css",
   "scripts": {
     "build": "npm run build.scss && npm run copy",
     "build.scss": "node-sass bootstrap-crom-theme.scss bootstrap-crom-theme.css --output-style=compressed",
@@ -34,5 +50,11 @@
     "react-helmet": "^5.2.0",
     "react-syntax-highlighter": "^10.1.2",
     "reactstrap": "^7.1.0"
-  }
+  },
+  "engines": { "node": ">= 0.10.0" },
+  "licenses": [ {
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/MIT"
+  } ],
+  "keywords": [ "bootstrap", "dark", "theme", "crom", "shin hae-chul" ]
 }
