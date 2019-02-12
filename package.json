@@ -1,7 +1,7 @@
 {
   "name": "bootstrap-crom-theme",
   "description": "Bootstrap dark theme to remember Shin Hae-chul.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Naram Kim a.k.a. Unknown",
     "email": "unknown@grotesq.com",
@@ -51,10 +51,20 @@
     "react-syntax-highlighter": "^10.1.2",
     "reactstrap": "^7.1.0"
   },
-  "engines": { "node": ">= 0.10.0" },
-  "licenses": [ {
-    "type": "MIT",
-    "url": "http://www.opensource.org/licenses/MIT"
-  } ],
-  "keywords": [ "bootstrap", "dark", "theme", "crom", "shin hae-chul" ]
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "keywords": [
+    "bootstrap",
+    "dark",
+    "theme",
+    "crom",
+    "shin hae-chul"
+  ]
 }
