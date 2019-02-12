@@ -55,7 +55,7 @@ const IndexPage = () => (
     <p>터미널을 통해 설치합니다.</p>
 
     <SyntaxHighlighter language="bash" style={darcula}>
-      {`npm install bootstrap-crom-theme
+      {`npm install --save bootstrap-crom-theme
 # or
 yarn add bootstrap-crom-theme`}
     </SyntaxHighlighter>
@@ -119,8 +119,8 @@ import 'node_modules/bootstrap-crom-theme/bootstrap-crom-theme.css';`}
     <h2>라이센스</h2>
 
     <p>
-      불새 로고에 대한 이미지는 전상일님에게 있습니다.
-      신해철님에 대한 추모 목적의 비상업적 용도 외의 상업적 사용은 불가합니다.
+      불새 로고에 대한 이미지는 전상일님에게 있습니다.<br/>
+      신해철님에 대한 추모 목적의 비상업적 용도 외의 상업적 사용은 불가합니다.<br/>
       사용권에 대한 자세한 내용은 전상일님에게 문의하셔야합니다.
     </p>
 

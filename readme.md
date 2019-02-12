@@ -19,7 +19,7 @@ https://bootstrap-crom-theme.unk.io
 터미널을 통해 설치합니다.
 
 ```bash
-npm install bootstrap-crom-theme
+npm install --save bootstrap-crom-theme
 # or
 yarn add bootstrap-crom-theme
 ```
