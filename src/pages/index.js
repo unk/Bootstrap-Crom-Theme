@@ -14,8 +14,9 @@ const IndexPage = () => (
     <h1>Bootstrap Crom Theme</h1>
 
     <p>
-      이 테마는 신해철님이 좋아하시던 검-빨 배색을 주색으로 하는 부트스트랩
-      테마입니다.
+      이 테마는 신해철님을 추억하는 목적으로 만들어진 부트스트랩 다크테마입니다.<br/>
+      검-빨 배색은 신해철님이 좋아하시던 배색이고, 강렬한 느낌의 다크 테마에도 아주 적합한 배색입니다.<br/>
+      추억하고 추모하는 목적 외에도 실용성 있는 수준의 다크 테마를 제작하고자 했습니다.
     </p>
     <p>
       부트스트랩에 대해서 잘 모르신다면{' '}
@@ -39,7 +40,7 @@ const IndexPage = () => (
 
     <hr />
 
-    <p>이 테마는 기본 배경색을 검은색으로 하고, 텍스트를 흰 색으로 합니다.</p>
+    <p>이 테마는 기본 배경색을 검은색으로 하고, 텍스트를 흰색으로 합니다.</p>
     <p className="text-primary">Primary Color는 빨간색(#cc0000)입니다.</p>
     <p className="text-danger">
       원래 빨간색으로 표시되던 Danger Color 는 보라색(#563d7c)으로 표시됩니다.
@@ -51,7 +52,21 @@ const IndexPage = () => (
 
     <h3>NPM을 이용한 설치</h3>
 
-    <p>준비중입니다.</p>
+    <p>터미널을 통해 설치합니다.</p>
+
+    <SyntaxHighlighter language="bash" style={darcula}>
+      {`npm install bootstrap-crom-theme
+# or
+yarn add bootstrap-crom-theme`}
+    </SyntaxHighlighter>
+
+    <p>그리고 로드 합니다.</p>
+
+    <SyntaxHighlighter language="javascript" style={darcula}>
+      {`require( 'node_modules/bootstrap-crom-theme/bootstrap-crom-theme.css' );
+// or
+import 'node_modules/bootstrap-crom-theme/bootstrap-crom-theme.css';`}
+    </SyntaxHighlighter>
 
     <hr/>
 
