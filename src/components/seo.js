@@ -36,7 +36,7 @@ function SEO({ description, lang, meta, keywords, title }) {
               },
               {
                 property: `og:image`,
-                content: `https://bootstrap-crom-theme.unk.io/${withPrefix('images/og-image.png')}`
+                content: `https://bootstrap-crom-theme.unk.io${withPrefix('images/og-image.png')}`
               },
               {
                 name: `twitter:card`,
@@ -56,7 +56,7 @@ function SEO({ description, lang, meta, keywords, title }) {
               },
               {
                 name: `twitter:image`,
-                content: `https://bootstrap-crom-theme.unk.io/${withPrefix('images/og-image.png')}`
+                content: `https://bootstrap-crom-theme.unk.io${withPrefix('images/og-image.png')}`
               }
             ]
               .concat(
