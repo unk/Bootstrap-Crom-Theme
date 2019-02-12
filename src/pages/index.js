@@ -103,6 +103,32 @@ import 'node_modules/bootstrap-crom-theme/bootstrap-crom-theme.css';`}
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>`}
     </SyntaxHighlighter>
 
+    <h2>버그 및 제안</h2>
+
+    <p>
+      <a href="https://github.com/Unk/Bootstrap-Crom-Theme/issues" target="_blank">https://github.com/Unk/Bootstrap-Crom-Theme/issues</a>
+    </p>
+
+    <h2>참여방법</h2>
+
+    <p>
+      많은 분들의 참여로 함께 만들어나가는 테마가 되면 좋겠습니다.<br/>
+      풀 리퀘스트 주시거나 제게 메일 주세요 <a href="mailto:unknown@grotesq.com">unknown@grotesq.com</a>
+    </p>
+
+    <h2>라이센스</h2>
+
+    <p>
+      불새 로고에 대한 이미지는 전상일님에게 있습니다.
+      신해철님에 대한 추모 목적의 비상업적 용도 외의 상업적 사용은 불가합니다.
+      사용권에 대한 자세한 내용은 전상일님에게 문의하셔야합니다.
+    </p>
+
+    <p>
+      그 외의 모든 소스는 MIT 라이센스를 따릅니다.
+      상세 정보: <a href="https://opensource.org/licenses/MIT" target="_blank">MIT License (영문)</a> <a href="https://www.olis.or.kr/license/Detailselect.do?lId=1006" target="_blank">[MIT 라이센스 (한글)]</a>
+    </p>
+
   </Layout>
 );
 

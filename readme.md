@@ -50,6 +50,20 @@ import 'node_modules/bootstrap-crom-theme/bootstrap-crom-theme.css';
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 ```
 
-## 참여
+## 버그 및 제안
 
+https://github.com/Unk/Bootstrap-Crom-Theme/issues
 
+## 참여방법
+
+많은 분들의 참여로 함께 만들어나가는 테마가 되면 좋겠습니다.  
+풀 리퀘스트 주시거나 제게 메일 주세요 unknown@grotesq.com
+
+## 라이센스
+
+불새 로고에 대한 이미지는 전상일님에게 있습니다.  
+신해철님에 대한 추모 목적의 비상업적 용도 외의 상업적 사용은 불가합니다.  
+사용권에 대한 자세한 내용은 전상일님에게 문의하셔야합니다.
+
+그 외의 모든 소스는 MIT 라이센스를 따릅니다.  
+상세 정보: [MIT License (영문)](https://opensource.org/licenses/MIT) [MIT 라이센스 (한글)](https://www.olis.or.kr/license/Detailselect.do?lId=1006)
